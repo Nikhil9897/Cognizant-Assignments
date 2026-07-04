@@ -84,5 +84,5 @@ Loads the Spring XML configuration, retrieves the Country bean, and prints it.
 
 
 
-!\[Output](Output.png)
+![Output](Output1.png)
 
