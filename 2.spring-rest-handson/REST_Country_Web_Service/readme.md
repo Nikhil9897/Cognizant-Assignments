@@ -162,7 +162,7 @@ server.port=8083
 
 
 
-!\[Application Running](screenshots/application-running.png)
+![Application Running](screenshots/application-running.png)
 
 
 
@@ -170,5 +170,5 @@ server.port=8083
 
 
 
-!\[Browser Output](screenshots/browser-output.png)
+![Browser Output](screenshots/browser-output.png)
 

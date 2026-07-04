@@ -218,7 +218,7 @@ http://localhost:8083/countries/in
 
 
 
-!\[Application Running](screenshots/application-running.png)
+![Application Running](screenshots/application-running.png)
 
 
 
@@ -226,5 +226,5 @@ http://localhost:8083/countries/in
 
 
 
-!\[Country Output](screenshots/country-output.png)
+![Country Output](screenshots/country-output.png)
 

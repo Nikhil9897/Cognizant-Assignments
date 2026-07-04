@@ -120,7 +120,7 @@ http://localhost:8083/hello
 
 
 
-!\[Application Running](screenshots/application-running.png)
+![Application Running](screenshots/application-running.png)
 
 
 
@@ -128,5 +128,5 @@ http://localhost:8083/hello
 
 
 
-!\[Browser Output](screenshots/browser-output.png)
+![Browser Output](screenshots/browser-output.png)
 
