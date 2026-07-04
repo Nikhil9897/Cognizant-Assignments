@@ -216,7 +216,7 @@ http://localhost:8080/authenticate
 
 
 
-Output.png
+![Output](Output.png)
 
 
 
