@@ -1,234 +1,115 @@
-### Creating Microservices for Account and Loan
+# Creating Microservices for Account and Loan
 
+## Loan Microservice
 
-
-\## Loan Microservice
-
-
-
-\### Objective
-
-
+### Objective
 
 Develop a Spring Boot REST microservice that provides loan details based on the loan number.
 
+---
 
+## Technologies Used
 
-\---
+- Java 17
+- Spring Boot
+- Spring Web
+- Maven
 
+---
 
+## Dependencies
 
-\## Technologies Used
+- Spring Boot Starter Web
+- Spring Boot DevTools
 
+---
 
-
-\- Java 17
-
-\- Spring Boot
-
-\- Spring Web
-
-\- Maven
-
-
-
-\---
-
-
-
-\## Dependencies
-
-
-
-\- Spring Boot Starter Web
-
-\- Spring Boot DevTools
-
-
-
-\---
-
-
-
-\## Project Structure
-
-
+## Project Structure
 
 ```
-
 loan
-
 │── src
-
 │   ├── main
-
 │   │   ├── java
-
 │   │   │   └── loan
-
 │   │   │       ├── LoanApplication.java
-
 │   │   │       └── controller
-
 │   │   │           └── LoanController.java
-
 │   │   └── resources
-
 │   │       └── application.properties
-
 │   └── test
-
 │
-
 ├── pom.xml
-
 ├── README.md
-
 └── Screenshots
-
 ```
 
+---
 
+## REST Endpoint
 
-\---
+### Get Loan Details
 
-
-
-\## REST Endpoint
-
-
-
-\### Get Loan Details
-
-
-
-\*\*Request\*\*
-
-
+**Request**
 
 ```
-
 GET /loans/{number}
-
 ```
 
-
-
-Example
-
-
+**Example**
 
 ```
-
 http://localhost:8081/loans/H00987987972342
-
 ```
 
+---
 
-
-\---
-
-
-
-\## Sample Response
-
-
+## Sample Response
 
 ```json
-
 {
-
-&#x20; "number": "H00987987972342",
-
-&#x20; "type": "Car",
-
-&#x20; "loan": 400000,
-
-&#x20; "emi": 3258,
-
-&#x20; "tenure": 18
-
+  "number": "H00987987972342",
+  "type": "Car",
+  "loan": 400000,
+  "emi": 3258,
+  "tenure": 18
 }
-
 ```
 
+---
 
+## Steps Performed
 
-\---
+1. Created a Spring Boot Maven project.
+2. Added Spring Web dependency.
+3. Created the `LoanController` class.
+4. Implemented REST endpoint using `@GetMapping`.
+5. Configured server port to **8081**.
+6. Returned dummy loan information.
+7. Tested the endpoint successfully in the browser.
 
+---
 
+# Output Screenshots
 
-\## Steps Performed
+## Project Structure
 
+![Project Structure](project-structure.png)
 
+---
 
-1\. Created a Spring Boot Maven project.
+## LoanController
 
-2\. Added Spring Web dependency.
+![Loan Controller](controller.png)
 
-3\. Created the `LoanController` class.
+---
 
-4\. Implemented REST endpoint using `@GetMapping`.
+## Application Running
 
-5\. Configured server port to \*\*8081\*\*.
+![Console Output](console.png)
 
-6\. Returned dummy loan information.
+---
 
-7\. Tested the endpoint successfully in the browser.
+## Browser Output
 
-
-
-\---
-
-
-
-\# Output Screenshots
-
-
-
-\## Project Structure
-
-
-
-!\[Project Structure](project-structure.png)
-
-
-
-\---
-
-
-
-\## LoanController
-
-
-
-!\[Loan Controller](controller.png)
-
-
-
-\---
-
-
-
-\## Application Running
-
-
-
-!\[Console Output](console.png)
-
-
-
-\---
-
-
-
-\## Browser Output
-
-
-
-!\[Browser Output](browser-output.png)
-
-
-
-\---
-
+![Browser Output](browser-output.png)
