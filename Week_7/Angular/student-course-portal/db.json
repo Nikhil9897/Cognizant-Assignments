@@ -1,0 +1,102 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "title": "Angular 20 & Enterprise Architecture",
+      "description": "Master Standalone Components, Signal State, Reactive Forms, NgRx, and RxJS data streams.",
+      "instructor": "Dr. Aris Vance",
+      "duration": "8 Weeks",
+      "rating": 4.9,
+      "category": "Frontend",
+      "image": "angular.png",
+      "price": 149,
+      "enrolled": 128
+    },
+    {
+      "id": "2",
+      "title": "Spring Boot 3 & Microservices Architecture",
+      "description": "Build high-throughput REST APIs, API Gateways, JWT Security, and JPA Persistence layers.",
+      "instructor": "Sarah Jenkins",
+      "duration": "10 Weeks",
+      "rating": 4.8,
+      "category": "Backend",
+      "image": "springboot.png",
+      "price": 199,
+      "enrolled": 210
+    },
+    {
+      "id": "3",
+      "title": "Full Stack Testing with Jasmine & Karma",
+      "description": "Comprehensive automated testing techniques for Angular components, services, and pipes.",
+      "instructor": "Michael Chang",
+      "duration": "4 Weeks",
+      "rating": 4.7,
+      "category": "Testing",
+      "image": "testing.png",
+      "price": 99,
+      "enrolled": 85
+    },
+    {
+      "id": "4",
+      "title": "RxJS & Reactive Programming Masterclass",
+      "description": "Deep dive into Higher-order Observables, Subjects, Marble testing, and custom operators.",
+      "instructor": "Elena Rostova",
+      "duration": "6 Weeks",
+      "rating": 4.9,
+      "category": "Frontend",
+      "image": "rxjs.png",
+      "price": 129,
+      "enrolled": 164
+    }
+  ],
+  "students": [
+    {
+      "id": "1",
+      "name": "Milind Verma",
+      "email": "milind.verma@cognizant.com",
+      "phone": "9876543210",
+      "avatar": "default.png",
+      "enrolledCourses": [
+        1,
+        2
+      ],
+      "bio": "Full Stack Java FSE & Angular Developer in Cognizant Digital Nurture 5.0."
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Milind Verma",
+      "email": "milind.verma@cognizant.com",
+      "password": "password123",
+      "role": "Student",
+      "token": "bearer-jwt-token-dn50-milind"
+    },
+    {
+      "id": "2",
+      "name": "Cognizant Instructor",
+      "email": "instructor@cognizant.com",
+      "password": "password123",
+      "role": "Instructor",
+      "token": "bearer-jwt-token-dn50-instructor"
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "studentId": 1,
+      "courseId": 1,
+      "enrollmentDate": "2026-07-20",
+      "status": "active",
+      "notes": "Enrolled via Digital Nurture 5.0 portal."
+    },
+    {
+      "id": "2",
+      "studentId": 1,
+      "courseId": 2,
+      "enrollmentDate": "2026-07-22",
+      "status": "active",
+      "notes": "Backend microservices track."
+    }
+  ]
+}
